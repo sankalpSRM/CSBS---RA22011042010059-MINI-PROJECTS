@@ -319,3 +319,5 @@ elif(game=='Hangman'):
         if chances == 0:
             print("You Loose")
             print("The word is: ", ip)  # this prints the correct input
+else:
+    print("Invalid Try Again")
