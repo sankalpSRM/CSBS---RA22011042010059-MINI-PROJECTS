@@ -1,6 +1,6 @@
 name = input("Enter your Name: ")
 print("Hello",name)
-game = input("What game would you like to play(Hangman or Pattern Maker or Snake Game: ")
+game = input("What game would you like to play(Hangman or Pattern Maker or Snake Game): ")
 if(game=='Pattern Maker'):
     pattern = input("Please enter the pattern you would like to make (Options: Pyramid,N,H,Number Pyramid,T,Quadilateral,Downward Pyramid,Sandglass,Diamond,Half Pyramid) : ")
     if(pattern=='pyramid' or pattern=='Pyramid'):
